@@ -4,9 +4,10 @@
   "description": "Agente de numerología estratégica en WhatsApp",
   "main": "index.js",
   "scripts": {
-    "start": "openclaw start"
+    "start": "openclaw serve"
   },
   "dependencies": {
-    "openclaw": "latest"
+    "openclaw": "latest",
+    "chokidar": "^3.6.0"
   }
 }
