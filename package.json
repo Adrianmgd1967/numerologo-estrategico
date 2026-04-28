@@ -8,7 +8,24 @@
     "dev": "openclaw dev"
   },
   "dependencies": {
-    "@openclaw/core": "latest",
-    "@openclaw/channel-whatsapp": "latest"
+    "openclaw": "latest"
+  }
+}
+2. Verifica el archivo openclaw.json
+Asegúrate de que tu archivo openclaw.json (también en la raíz de tu GitHub) tenga activado el canal de WhatsApp de esta manera:
+
+{
+  "agents": [
+    {
+      "id": "numerologo",
+      "identity": "./IDENTITY.md",
+      "soul": "./SOUL.md",
+      "skills": ["./numerologia.js"]
+    }
+  ],
+  "channels": {
+    "whatsapp": {
+      "enabled": true
+    }
   }
 }
