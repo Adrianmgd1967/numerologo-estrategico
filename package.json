@@ -1,13 +1,20 @@
 {
   "name": "numerologo-estrategico",
   "version": "1.0.0",
-  "description": "Agente de numerología estratégica en WhatsApp",
+  "description": "Agente de numerología estratégica",
   "main": "index.js",
   "scripts": {
-    "start": "openclaw serve"
+    "start": "openclaw run"
   },
   "dependencies": {
     "openclaw": "latest",
     "chokidar": "^3.6.0"
+  }
+}
+,
+    "chokidar": "^3.6.0"
+  }
+}
+annel-whatsapp": "latest"
   }
 }
