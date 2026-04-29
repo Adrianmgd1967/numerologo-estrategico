@@ -7,7 +7,7 @@
     "node": ">=22.14.0"
   },
   "scripts": {
-    "start": "openclaw gateway --port $PORT"
+    "start": "node index.js"
   },
   "dependencies": {
     "openclaw": "latest",
