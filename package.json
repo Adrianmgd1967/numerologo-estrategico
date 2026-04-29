@@ -7,7 +7,7 @@
     "node": ">=22.14.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "openclaw gateway --port $PORT --allow-unconfigured"
   },
   "dependencies": {
     "openclaw": "latest",
